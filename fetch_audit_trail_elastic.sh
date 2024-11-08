@@ -10,7 +10,7 @@
 # Terraform Org Token, see here for details: https://developer.hashicorp.com/terraform/cloud-docs/users-teams-organizations/api-tokens#organization-api-tokens
 TERRAFORM_API_TOKEN="${TERRAFORM_API_TOKEN:?Please set the Terraform API Token}"
 # Set this with your Elastic search Endpoint. (e.g., https://my-deployment-1c95a5.es.uksouth.azure.elastic-cloud.com:9243)
-ELASTIC_URL="${ELASTIC_URL:?Please set the Elastic URL (e.g., https://my-deployment-1c99a4.es.uksouth.azure.elastic-cloud.com:9243)}"
+ELASTIC_URL="${ELASTIC_URL:?Please set the Elastic URL }"
 # Set with your Elastic Cloud username. For permissions needed see: https://developer.hashicorp.com/hcp/docs/vault/logs-metrics/elasticsearch/logs#create-role
 ELASTIC_USER="${ELASTIC_USER:?Please set the Elastic User}"
 # Set with your Elastic Cloud password
